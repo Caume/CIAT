@@ -1,0 +1,14 @@
+Installation of distorm64 library is not trivial. Enter the 'build'
+directory and then enter the directory corresponding to the OS you have.
+
+If you use 'make install' after 'make', only the dynamic version of the 
+library (.so) will be copied.
+
+Instead, just do a make under the directory of your OS and then:
+
+1) Copy distorm.h to your local include directory (e.g. /usr/local/include)
+2a) Copy distorm64.a static library to your local lib (e.g. /usr/local/lib)
+   with the name 'libdistorm64.a'. You will find this static library at the 
+   root directory of the distorm distribution after a successful 'make'.
+2b) Alternatively, the dynamic library, libdistorm64.so to your local lib (
+    e.g. /usr/local/lib) and run 'ldconfig'.

@@ -1,0 +1,8 @@
+All programs from the Cryptographic Implementations Analysis Toolkit 
+are (c) 2008 by Omar A. Herrera Reyna (oherrera@prodigy.net.mx)
+
+The toolkit is released in binary and source code form with GNU GPL 
+License version 3.
+
+Please check the documentations for licensing and copyright information 
+of 3rd party libraries used to build this toolkit.

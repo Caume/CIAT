@@ -1,0 +1,30 @@
+ Cryptographic Implementations Analysis Toolkit - CIAT.
+ (c) 2008 - Omar A. Herrera Reyna. Released unde GNU GPL v.3
+ License. (See LEGAL.txt)
+
+
+ Requirements: Compile and install the following libraries before
+ compiling CIAT:
+
+ - glut (a version of glut is included in Mesa3-D if you have it already. If
+   not, get it from: http://www.opengl.org/resources/libraries/glut/)
+
+ - fftw (http://www.opengl.org/resources/libraries/glut/)
+
+ - distorm64 (http://www.ragestorm.net/distorm/)
+
+ - Mesa3-D (free, opengl compatible library, included in many modern
+   Linux distributions. http://mesa3d.org/)
+
+ - fxt (http://www.jjj.de/fxt/)
+
+ Also, download and extract the cephes math library (http://www.moshier.net/
+ #Cephes) in this directory: 'src/', and make sure that you have const.c, 
+ gamma.c, igam.c, mtherr.c, isnan.c and polevl.c in a subdirectory named 
+ 'cephes/double/' within 'src/'. 
+
+ After that simply type 'configure', 'make' and 'make install' (binaries 
+ will be in /usr/local/bin). If you have trouble with the configure script
+ try using the file 'Makefile.linux32'. It is a previous (more simple) version
+ of the makefile (just replace 'Makefile' with it).
+

@@ -1,0 +1,12 @@
+CIAT 1.02
+	Included autotools scripts and files for automatic makefile
+	generation, to improve portability. Installation documentation
+	was also improved.  
+
+CIAT 1.01
+	Inclusion of linux binaries and Makefile along with instructions
+	to compile CIAT under Linux.
+
+CIAT 1.00 
+	First public release (source code and windows binaries)
+
